@@ -7,7 +7,13 @@ import org.springframework.stereotype.Repository;
 import taller_back.demo.entities.estudianteEntity;
 
 @Repository
-public class estudianteRepository {
+/**
+ * estudianteRepository
+ */
+public interface estudianteRepository {
+
+    
+
 
     List<estudianteEntity> findByNombre(String nombre);
     
