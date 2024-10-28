@@ -12,8 +12,6 @@ import taller_back.demo.entities.estudianteEntity;
  */
 public interface estudianteRepository {
 
-    
-
 
     List<estudianteEntity> findByNombre(String nombre);
     
