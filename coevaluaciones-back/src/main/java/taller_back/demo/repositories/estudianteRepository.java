@@ -13,8 +13,6 @@ import taller_back.demo.entities.estudianteEntity;
  */
 public interface EstudianteRepository extends JpaRepository<estudianteEntity, Long> {
 
-    
-
 
     List<estudianteEntity> findByNombre(String nombre);
     
