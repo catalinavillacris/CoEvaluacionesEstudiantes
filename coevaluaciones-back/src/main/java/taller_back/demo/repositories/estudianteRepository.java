@@ -11,7 +11,7 @@ import taller_back.demo.entities.estudianteEntity;
 /**
  * estudianteRepository
  */
-public interface EstudianteRepository extends JpaRepository<estudianteEntity, Long> {
+public interface estudianteRepository extends JpaRepository<estudianteEntity, Long> {
 
 
     List<estudianteEntity> findByNombre(String nombre);
