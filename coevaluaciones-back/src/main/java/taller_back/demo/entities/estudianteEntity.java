@@ -5,6 +5,9 @@ import lombok.Data;
 
 @Data
 @Entity
-public class grupo {
+public class estudianteEntity extends BaseEntity {
+
+    private String login;
+    private String nombre;
     
 }
